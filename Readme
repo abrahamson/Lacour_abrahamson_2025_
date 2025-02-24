@@ -1,1 +1,19 @@
 Non-ergodic adjustment factors used in the example hazard calculation.
+
+file: "France_SSC_V5b.xlsx"
+This file contains the source characteriztion for the zoness for the example hazard calculation
+The file is in the format for program HAZ45. 
+
+file: "Adj_RE_site1_5Hz_Sa10.xlsx"
+This file contains the 100 realizations, mean, and std dev of the non-ergodic torms for each source location
+column 1:  index of the source location
+column 2: latitude of the source
+column 3: longitude of the source
+column 4: non-ergodic adjustment (in LN units) for realization 1 
+coulmn 5: non-ergodic adjustment (in LN units) for realizatoin 2
+... repeatd for 100 relization
+column 104: mean non-ergodic adjustment (LN units)
+column 105: std dev of non-ergodic adjustment (LN units)
+
+file: "eas_5Hz for haz"
+This file contains the median and std dev of the EAS (in g-s) for M6 and 5 Hz
